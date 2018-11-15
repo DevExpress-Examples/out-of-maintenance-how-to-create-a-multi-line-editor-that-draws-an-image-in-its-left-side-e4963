@@ -1,3 +1,21 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [CustomGridControl.cs](./CS/ImageMemoEdit/CustomGridControl/CustomGridControl.cs) (VB: [CustomGridControl.vb](./VB/ImageMemoEdit/CustomGridControl/CustomGridControl.vb))
+* [CustomGridInfoRegistrator.cs](./CS/ImageMemoEdit/CustomGridControl/CustomGridInfoRegistrator.cs) (VB: [CustomGridInfoRegistrator.vb](./VB/ImageMemoEdit/CustomGridControl/CustomGridInfoRegistrator.vb))
+* [CustomGridPainter.cs](./CS/ImageMemoEdit/CustomGridControl/CustomGridView/CustomGridPainter.cs) (VB: [CustomGridPainter.vb](./VB/ImageMemoEdit/CustomGridControl/CustomGridView/CustomGridPainter.vb))
+* [CustomGridView.cs](./CS/ImageMemoEdit/CustomGridControl/CustomGridView/CustomGridView.cs) (VB: [CustomGridView.vb](./VB/ImageMemoEdit/CustomGridControl/CustomGridView/CustomGridView.vb))
+* [MyGridViewPrintInfo.cs](./CS/ImageMemoEdit/CustomGridControl/CustomGridView/MyGridViewPrintInfo.cs) (VB: [MyGridViewPrintInfo.vb](./VB/ImageMemoEdit/CustomGridControl/CustomGridView/MyGridViewPrintInfo.vb))
+* [SmartIconSelectionEventArgs.cs](./CS/ImageMemoEdit/CustomGridControl/SmartIconSelectionEventArgs.cs) (VB: [SmartIconSelectionEventArgs.vb](./VB/ImageMemoEdit/CustomGridControl/SmartIconSelectionEventArgs.vb))
+* [IconSelectionEventArgs.cs](./CS/ImageMemoEdit/ExtendedEditor/IconSelectionEventArgs.cs) (VB: [IconSelectionEventArgs.vb](./VB/ImageMemoEdit/ExtendedEditor/IconSelectionEventArgs.vb))
+* [IIconSelector.cs](./CS/ImageMemoEdit/ExtendedEditor/IIconSelector.cs) (VB: [IIconSelector.vb](./VB/ImageMemoEdit/ExtendedEditor/IIconSelector.vb))
+* [MyMemoEdit.cs](./CS/ImageMemoEdit/ExtendedEditor/MyMemoEdit.cs) (VB: [MyMemoEditPainter.vb](./VB/ImageMemoEdit/ExtendedEditor/MyMemoEditPainter.vb))
+* [MyMemoEditPainter.cs](./CS/ImageMemoEdit/ExtendedEditor/MyMemoEditPainter.cs) (VB: [MyMemoEditPainter.vb](./VB/ImageMemoEdit/ExtendedEditor/MyMemoEditPainter.vb))
+* [MyMemoEditViewInfo.cs](./CS/ImageMemoEdit/ExtendedEditor/MyMemoEditViewInfo.cs) (VB: [MyMemoEditViewInfo.vb](./VB/ImageMemoEdit/ExtendedEditor/MyMemoEditViewInfo.vb))
+* [MyRepositoryItemMemoEdit.cs](./CS/ImageMemoEdit/ExtendedEditor/MyRepositoryItemMemoEdit.cs) (VB: [MyRepositoryItemMemoEdit.vb](./VB/ImageMemoEdit/ExtendedEditor/MyRepositoryItemMemoEdit.vb))
+* [Program.cs](./CS/ImageMemoEdit/Program.cs) (VB: [Program.vb](./VB/ImageMemoEdit/Program.vb))
+* [XtraForm1.cs](./CS/ImageMemoEdit/XtraForm1.cs) (VB: [XtraForm1.vb](./VB/ImageMemoEdit/XtraForm1.vb))
+<!-- default file list end -->
 # How to create a multi line editor that draws an image in its left side 
 
 
