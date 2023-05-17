@@ -80,12 +80,12 @@ namespace EditorDescendant
             Events.AddHandler(_onSmartIconSelection, source.Events[_onSmartIconSelection]);
         }
 
-        public override IVisualBrick GetBrick(PrintCellHelperInfo info)
+        public override VisualBrick GetBrick(PrintCellHelperInfo info)
         {
             TextBrick contentBrick = (TextBrick)base.GetBrick(info);
             ImageBrick imgBrick = new ImageBrick();
 
-            IPanelBrick panelBrick = new XETextPanelBrick(CreateBrickStyle(info, "panel"));
+            PanelBrick panelBrick = new XETextPanelBrick(CreateBrickStyle(info, "panel"));
             SetCommonBrickProperties(panelBrick, info);
             panelBrick.Bricks.Add(imgBrick);
             panelBrick.Bricks.Add(contentBrick);
