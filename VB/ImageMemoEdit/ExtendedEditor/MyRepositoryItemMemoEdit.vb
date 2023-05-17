@@ -69,11 +69,11 @@ Namespace EditorDescendant
 			Events.AddHandler(_onSmartIconSelection, source.Events(_onSmartIconSelection))
 		End Sub
 
-		Public Overrides Function GetBrick(ByVal info As PrintCellHelperInfo) As IVisualBrick
+		Public Overrides Function GetBrick(ByVal info As PrintCellHelperInfo) As VisualBrick
 			Dim contentBrick As TextBrick = CType(MyBase.GetBrick(info), TextBrick)
 			Dim imgBrick As New ImageBrick()
 
-			Dim panelBrick As IPanelBrick = New XETextPanelBrick(CreateBrickStyle(info, "panel"))
+			Dim panelBrick As PanelBrick = New XETextPanelBrick(CreateBrickStyle(info, "panel"))
 			SetCommonBrickProperties(panelBrick, info)
 			panelBrick.Bricks.Add(imgBrick)
 			panelBrick.Bricks.Add(contentBrick)
