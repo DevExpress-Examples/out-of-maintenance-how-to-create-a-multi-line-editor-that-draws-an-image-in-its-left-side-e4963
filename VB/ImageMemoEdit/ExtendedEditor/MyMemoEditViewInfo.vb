@@ -22,7 +22,7 @@ Namespace EditorDescendant
                 text = DisplayText
                 If Not Equals(text, Nothing) AndAlso text.Length > 0 Then
                     Dim lastChar As Char = text(text.Length - 1)
-                    If lastChar = 13 OrElse lastChar = 10 Then text += "W"
+                    If lastChar.Equals(13) OrElse lastChar.Equals(10) Then text += "W"
                 End If
             Else
                 For i As Integer = 0 To Item.LinesCount - 1
