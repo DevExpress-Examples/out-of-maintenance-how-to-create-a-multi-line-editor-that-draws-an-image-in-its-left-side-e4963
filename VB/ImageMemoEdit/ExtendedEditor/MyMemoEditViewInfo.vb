@@ -25,7 +25,7 @@ Namespace EditorDescendant
 				text = DisplayText
 				If text IsNot Nothing AndAlso text.Length > 0 Then
 					Dim lastChar As Char = text.Chars(text.Length - 1)
-					If AscW(lastChar) = 13 OrElse AscW(lastChar) = 10 Then
+					If lastChar.Equals(13) OrElse lastChar.Equals(10) Then
 						text &= "W"
 					End If
 				End If
