@@ -17,7 +17,7 @@ Namespace ImageTextEdit
             'gridColumn2.MinWidth = myRepositoryItemMemoEdit1.ContentImageSize.Width + 10;
             'customGridView1.Columns[1].ColumnEdit = repositoryItemMemoEdit1;
             customGridView1.OptionsView.ColumnAutoWidth = False
-            myRepositoryItemMemoEdit1.ScrollBars = Windows.Forms.ScrollBars.None
+            myRepositoryItemMemoEdit1.ScrollBars = System.Windows.Forms.ScrollBars.None
         End Sub
 
         Public Function MakeAdditionalTable() As DataTable
