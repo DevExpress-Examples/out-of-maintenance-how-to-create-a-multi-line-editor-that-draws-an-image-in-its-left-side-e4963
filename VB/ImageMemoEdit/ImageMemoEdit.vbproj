@@ -12,7 +12,7 @@
     <RootNamespace>
     </RootNamespace>
     <AssemblyName>ImageTextEdit</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
